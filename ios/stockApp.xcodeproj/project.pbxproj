@@ -11,6 +11,7 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		1A6D14A5288A2C78009A104D /* Config.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 1A6D14A4288A2C78009A104D /* Config.xcconfig */; };
 		73F26C4D39E8521D5FD21E31 /* libPods-stockApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A50C19D45BD68C00D3E7A2A3 /* libPods-stockApp.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		8B151A28208DFA8F2F62CBB4 /* libPods-stockApp-stockAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FDA3EA9957FEA462B166828E /* libPods-stockApp-stockAppTests.a */; };
@@ -37,6 +38,7 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = stockApp/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = stockApp/main.m; sourceTree = "<group>"; };
 		1948AF9C5B7AC0F7C22AFB79 /* Pods-stockApp-stockAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-stockApp-stockAppTests.debug.xcconfig"; path = "Target Support Files/Pods-stockApp-stockAppTests/Pods-stockApp-stockAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1A6D14A4288A2C78009A104D /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
 		3BD4CBA39F601D648D94751A /* Pods-stockApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-stockApp.release.xcconfig"; path = "Target Support Files/Pods-stockApp/Pods-stockApp.release.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = stockApp/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9FF11B75CDDFE6F907F23955 /* Pods-stockApp-stockAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-stockApp-stockAppTests.release.xcconfig"; path = "Target Support Files/Pods-stockApp-stockAppTests/Pods-stockApp-stockAppTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -116,6 +118,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				1A6D14A4288A2C78009A104D /* Config.xcconfig */,
 				13B07FAE1A68108700A75B9A /* stockApp */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* stockAppTests */,
@@ -243,6 +246,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				1A6D14A5288A2C78009A104D /* Config.xcconfig in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -531,6 +535,7 @@
 		};
 		83CBBA201A601CBA00E9B192 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A6D14A4288A2C78009A104D /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
@@ -596,6 +601,7 @@
 		};
 		83CBBA211A601CBA00E9B192 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A6D14A4288A2C78009A104D /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
